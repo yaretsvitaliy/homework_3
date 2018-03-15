@@ -1,0 +1,24 @@
+.sweden {
+	background-color: #006AA7;
+	position: relative;
+	border: 2px;
+}
+
+.sweden::before {
+	background-color: #FECC00;
+	content: "";
+	height: 15%;
+	left: 0;
+	position: absolute;
+	top: 45%;
+	width: 100%;
+}
+.sweden::after {
+	background-color: #FECC00;
+	content: "";
+	height: 100%;
+	left: 30%;
+	position: absolute;
+	top: 0;
+	width: 9%;
+}

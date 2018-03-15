@@ -1,0 +1,148 @@
+.flag {
+	width: 300px;
+	height: 200px;
+	border: 1px solid black;
+	display: block;
+	transition: all 0.5s ease-in-out;
+  box-sizing: content-box;
+
+}
+
+
+.animate{
+
+  position:relative;
+  margin:0 auto;
+  width:300px; 
+  height: 200px;            
+  
+  }
+  
+  .animate div {
+  position:absolute;
+  left: 0;
+  top: 0; 
+  
+  }
+  .lithuania {
+	border: 1px solid black;
+	background-image: linear-gradient(to bottom, yellow 33%, darkgreen 33%, darkgreen 66%, red 66%);
+}
+.japan {
+	border: 1px solid black;
+	background: radial-gradient(circle, red 50px, white 50px);
+}
+
+
+.animate.japan{ 
+
+    opacity:0;
+  filter:alpha (opacity=0);
+  
+  }
+  
+  .animate.japan:hover  { 
+  
+    opacity:1;
+   filter:alpha (opacity=100);
+  
+  }
+  
+  .animate.japan:hover, .animate .lithuania:hover { 
+  opacity:0;
+  filter:alpha (opacity=0);
+  
+  }
+
+  .france{
+    border: 1px solid black;;
+    background-image: linear-gradient(to right, blue 33%, white 33%, white 66%, red 66%);
+  }
+
+  .sweden {
+    background-color: #006AA7;
+    position: relative;
+    border: 1px solid black;;
+  }
+  
+  .sweden::before {
+    background-color: #FECC00;
+    content: "";
+    height: 15%;
+    left: 0;
+    position: absolute;
+    top: 45%;
+    width: 100%;
+  }
+  .sweden::after {
+    background-color: #FECC00;
+    content: "";
+    height: 100%;
+    left: 30%;
+    position: absolute;
+    top: 0;
+    width: 9%;
+  }
+
+
+
+.animate.france{ 
+opacity:0;
+filter:alpha (opacity=0);
+}
+
+.animate.france:hover  { 
+opacity:1;
+filter:alpha (opacity=100);
+}
+
+.animate.france:hover, .animate .sweden:hover { 
+opacity:0;
+filter:alpha (opacity=0);
+}
+
+
+.italy{
+	border: 1px solid black;
+	background-image: linear-gradient(to right, #009246 33%, #ffffff 33%, #ffffff 66%, #ce2b37 66%);
+}
+
+.denmark {
+	background-color: #D10A33;
+	position: relative;
+	border: 1px solid black;
+}
+
+.denmark::before {
+	background-color: #FFFFFF;
+	content: "";
+	height: 15%;
+	left: 0;
+	position: absolute;
+	top: 45%;
+	width: 100%;
+}
+.denmark::after {
+	background-color: #FFFFFF;
+	content: "";
+	height: 100%;
+	left: 30%;
+	position: absolute;
+	top: 0;
+	width: 9%;
+}
+
+.animate.denmark{ 
+  opacity:0;
+  filter:alpha (opacity=0);
+  }
+  
+  .animate.denmark:hover  { 
+  opacity:1;
+  filter:alpha (opacity=100);
+  }
+  
+  .animate.denmark:hover, .animate .italy:hover { 
+  opacity:0;
+  filter:alpha (opacity=0);
+  }

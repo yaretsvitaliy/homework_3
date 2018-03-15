@@ -1,0 +1,92 @@
+.djibouti {
+    position:relative;
+}
+.djibouti_line{
+    width: 300px;
+    height: 100px;
+   
+    position:relative;
+
+} 
+
+.djibouty_line_blue{
+    background: #6ab2e7;
+
+}
+
+.djibouti_line_green{
+    background: #12ad2b;
+
+}
+
+
+
+
+.djibouti_triangle {
+	width: 0;
+	height: 0;
+	border-top: 100px solid transparent;
+	border-left: 175px solid white;
+    border-bottom: 100px solid transparent;
+    position: absolute;
+    top: 0px;
+
+}
+
+
+
+.djibouti_star_five {
+       
+    position: absolute;
+    display: block;
+    color: #ffde00;
+    width: 0px;
+    height: 0px;
+    border-right:  25px solid transparent;
+    border-bottom: 17.5px  solid #d7141a;
+    border-left:   25px solid transparent;
+    -moz-transform:    rotate(35deg);
+    -webkit-transform: rotate(35deg);
+    -ms-transform:     rotate(35deg);
+    -o-transform:      rotate(35deg);
+    left: -135px;
+    top: -10px;
+  
+   
+    
+ }
+ .djibouti_star_five:before {
+    border-bottom: 20px solid #d7141a;
+    border-left: 7.5px solid transparent;
+    border-right: 7.5px solid transparent;
+    position: absolute;
+    height: 0;
+    width: 0;
+   
+    display: block;
+    content: '';
+    -webkit-transform: rotate(-35deg);
+    -moz-transform:    rotate(-35deg);
+    -ms-transform:     rotate(-35deg);
+    -o-transform:      rotate(-35deg);
+    top: -12px;
+    left: -15px;
+
+ }
+ .djibouti_star_five:after {
+    position: absolute;
+    display: block;
+    color: #d7141a;
+  left: -25px;
+    width: 0px;
+    height: 0px;
+    border-right: 25px solid transparent;
+    border-bottom: 17.5px solid #d7141a;
+    border-left: 25px solid transparent;
+    -webkit-transform: rotate(-70deg);
+    -moz-transform:    rotate(-70deg);
+    -ms-transform:     rotate(-70deg);
+    -o-transform:      rotate(-70deg);
+    content: '';
+ }
+ 

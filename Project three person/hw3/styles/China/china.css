@@ -1,0 +1,139 @@
+.china {
+        background: #de2910;
+}  
+
+
+
+.china_star_five_big {
+       
+        position: relative;
+        display: block;
+        color: #ffde00;
+        width: 0px;
+        height: 0px;
+        border-right:  30px solid transparent;
+        border-bottom: 20px  solid #ffde00;
+        border-left:   30px solid transparent;
+        -moz-transform:    rotate(35deg);
+        -webkit-transform: rotate(35deg);
+        -ms-transform:     rotate(35deg);
+        -o-transform:      rotate(35deg);
+        top: 40px;
+        left: 20px;
+     }
+  
+     .china_star_five_big:before {
+        border-bottom: 24px solid #ffde00;
+        border-left: 9px solid transparent;
+        border-right: 9px solid transparent;
+        position: absolute;
+        height: 0;
+        width: 0;
+        top: -13px;
+        left: -19px;
+        display: block;
+        content: '';
+        -webkit-transform: rotate(-35deg);
+        -moz-transform:    rotate(-35deg);
+        -ms-transform:     rotate(-35deg);
+        -o-transform:      rotate(-35deg);
+        
+     }
+     .china_star_five_big:after {
+        position: absolute;
+        display: block;
+        color: #ffde00;
+        top: 1px;
+        left: -31px;
+        width: 0px;
+        height: 0px;
+        border-right: 30px solid transparent;
+        border-bottom: 20px solid #ffde00;
+        border-left: 30px solid transparent;
+        -webkit-transform: rotate(-70deg);
+        -moz-transform:    rotate(-70deg);
+        -ms-transform:     rotate(-70deg);
+        -o-transform:      rotate(-70deg);
+        content: '';
+     }
+
+
+.china_star_five_small {
+       
+        position: relative;
+        display: block;
+        color: #ffde00;
+        width: 0px;
+        height: 0px;
+        border-right:  10px solid transparent;
+        border-bottom: 7px  solid #ffde00;
+        border-left:   10px solid transparent;
+        -moz-transform:    rotate(35deg);
+        -webkit-transform: rotate(35deg);
+        -ms-transform:     rotate(35deg);
+        -o-transform:      rotate(35deg);
+        
+       
+     }
+     
+
+
+    .china_star_five_small:before {
+        border-bottom: 8px solid #ffde00;
+        border-left: 3px solid transparent;
+        border-right: 3px solid transparent;
+        position: absolute;
+        height: 0;
+        width: 0;
+        top: -4.5px;
+        left: -6.5px;
+        display: block;
+        content: '';
+        -webkit-transform: rotate(-35deg);
+        -moz-transform:    rotate(-35deg);
+        -ms-transform:     rotate(-35deg);
+        -o-transform:      rotate(-35deg);
+        
+     }
+     .china_star_five_small:after {
+        position: absolute;
+        display: block;
+        color: #ffde00;
+        top: 1px;
+        left: -11px;
+        width: 0px;
+        height: 0px;
+        border-right: 10px solid transparent;
+        border-bottom: 7px solid #ffde00;
+        border-left: 10px solid transparent;
+        -webkit-transform: rotate(-70deg);
+        -moz-transform:    rotate(-70deg);
+        -ms-transform:     rotate(-70deg);
+        -o-transform:      rotate(-70deg);
+        content: '';
+     }
+     .china_1fst_st{
+        top: -5px;
+        left: 95px;
+        transform: rotateZ(50deg);
+  }  
+  .china_2nd_st{
+        top: 10px;
+        left: 115px;
+        transform: rotateZ(90deg);
+  }
+
+  .china_3d_st{     
+        top: 30px;
+        left: 115px;
+
+  }
+  .china_4th_st{
+        top: 45px;
+        left: 95px;
+        transform: rotateZ(50deg);
+  }
+
+
+
+

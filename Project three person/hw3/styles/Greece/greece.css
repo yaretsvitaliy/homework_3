@@ -1,0 +1,45 @@
+.greece {
+position: relative;
+
+}
+
+.greece_flag_line {
+  height:22.22px;
+}
+
+.greece_line_blue {
+    background: #0d5eaf;
+
+}
+
+.greece_line_white {
+    background: #ffffff;
+
+}
+
+.greece_square {
+    height: 111px;
+    width: 111px;
+    background: #0d5eaf;
+    position: absolute;
+    top: 0px;
+
+}
+
+.greece_square_line_hor {
+    width: 111px;
+    height: 22.5px;
+    background: white;
+    position: absolute;
+    top: 45px;
+}
+
+
+.greece_square_line_vert {
+    width: 22.5px;
+    height: 115px;
+    background: white;
+    position: absolute;
+    right: 45px;
+}
+

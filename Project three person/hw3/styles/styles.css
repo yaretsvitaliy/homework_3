@@ -1,0 +1,37 @@
+@import url('../styles/Japan/japan.css');
+@import url('../styles/Lithuania/lithuania.css');
+@import url('../styles/France/france.css');
+@import url('../styles/Sweden/sweden.css');
+@import url('../styles/Djibouti/djibouti.css');
+@import url('../styles/Greenland/greenland.css');
+@import url('../styles/China/china.css');
+@import url('../styles/Greece/greece.css');
+@import url('../styles/Guernsey/guernsey.css');
+@import url('../styles/Italy/italy.css');
+@import url('../styles/Czech/czech.css');
+@import url('../styles/Chile/chile.css');
+@import url('../styles/Germany/germany.css');
+@import url('../styles/Switzerland/switzerland.css');
+@import url('../styles/Liberia/liberia.css');
+@import url('../styles/Timor/timor.css');
+
+.name {
+	visibility: hidden;
+	font-size: 20px;
+	width: 300px;
+	text-align: center;
+	color: blue;
+}
+
+.flag {
+	width: 300px;
+	height: 200px;
+	border: 1px solid black;
+	display: block;
+	transition: all 0.5s ease-in-out;
+	box-sizing: content-box;
+}
+
+.flag:hover+div{
+	visibility: visible;
+}

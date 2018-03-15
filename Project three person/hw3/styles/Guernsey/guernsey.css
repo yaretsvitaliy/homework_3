@@ -1,0 +1,91 @@
+.guernsey {
+    position: relative;
+}
+.guernsey_line_vertical {
+  
+    height: 200px;
+    width: 50px;
+    left: 125px;
+    display: inline-block;
+    position: absolute;
+
+}
+
+.guernsey_line_horizontal {
+ 
+   
+    height: 50px;
+    width: 300px;
+    top: 75px;
+    display: inline-block;
+    position: absolute;
+
+}
+
+.guernsey_red{ 
+    background: #ff0000;
+
+}
+.guernsey_line_vertical_small {
+    height: 150px;
+    width: 17px;
+
+    top: 25px;
+    left: 142px;
+    position: absolute;
+}
+
+.guernsey_line_horizontal_small {
+    height: 17px;
+    width: 150px;
+    top:92px;
+    left:75px;
+
+    position: absolute;
+}
+
+.guernsey_triangle_down {
+    width: 0; height: 0;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-top: 17px solid #f9dd16;
+    left: 135px;
+    top: 25px;
+    position: absolute;
+}
+
+.guernsey_triangle_up {
+    width: 0; height: 0;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-bottom: 17px solid #f9dd16;
+    left: 135px;
+    bottom: 25px;
+    position: absolute;
+}
+
+.guernsey_triangle_right {
+    width: 0; height: 0;
+    border-top: 15px solid transparent;
+    border-left: 17px solid #f9dd16;
+    border-bottom: 15px solid transparent;
+    top: 85px;
+   left: 75px;
+   
+    position: absolute;
+}
+
+.guernsey_triangle_left {
+    width: 0; height: 0;
+    border-top: 15px solid transparent;
+    border-right: 17px solid #f9dd16;
+    border-bottom: 15px solid transparent;
+    top: 85px;
+    right: 75px;
+   
+    position: absolute;
+}
+
+.guernsey_yellow{
+    background: #f9dd16;
+}

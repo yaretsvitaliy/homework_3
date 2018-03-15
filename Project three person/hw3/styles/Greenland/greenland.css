@@ -1,0 +1,32 @@
+
+.greenland_line {
+    width: 300px;
+    height: 100px;
+    
+    position:relative;
+}
+greenland_top {
+    background: #ffffff;
+}
+
+
+    .greenland_bottom {
+    background: #d00c33;
+}
+ 
+
+.greenland_semi_circle {
+    width: 130px;
+    height: 70px;  
+    bottom: 0px;
+    left: 50px;
+    position: absolute;
+}
+.greenland_sc_top{
+     border-radius: 50% 50% 0 0 / 100% 100% 0 0;  
+     background: #d00c33;
+}
+.greenland_sc_bottom{  
+    border-radius: 0 0 50% 50% / 0 0 100% 100%;
+    background: white;
+top:0px;}

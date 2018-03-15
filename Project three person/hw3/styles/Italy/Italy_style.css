@@ -1,0 +1,33 @@
+.flag {
+    
+    width: 300px;
+    height: 200px;
+    border: 1px solid black;
+    box-sizing: content-box;
+}
+.italy_line_left {
+    height:200px;
+    width: 100px;
+    
+    background: #009246;
+    display: inline-block;
+   
+}
+.italy_line_middle {
+    height:200px;
+    width: 100px;
+    margin-left: -4px;
+	background: #ffffff;
+    display: inline-block;
+}
+.italy_line_right {
+    height:200px;
+    width: 100px;
+    margin-left: -4px;
+    background: #ce2b37;
+    display: inline-block;
+}
+
+
+
+

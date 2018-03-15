@@ -1,0 +1,68 @@
+.Chile{
+    position: relative;
+}
+    .CHL_white, .CHL_red {width: 300px; height:100px;}
+    .CHL_white {background:#F8F8F8}
+    .CHL_red {background:#D42E12}
+    
+    .CHL_kvadrat {
+        background-color: #0035AD;
+        height: 100px;
+        position: absolute;
+        width: 100px;
+    }
+     .CHL_star {
+        width: 0;
+        height: 0;
+        margin: 0px 0;
+        color: #FFFFFF;
+        position: relative;
+        display: block;
+        border-right: 25px solid transparent;
+        border-bottom: 17.5px solid #FFFFFF;
+        border-left: 25px solid transparent;
+        -moz-transform: rotate(35deg);
+        -webkit-transform: rotate(35deg);
+        -ms-transform: rotate(35deg);
+        -o-transform: rotate(35deg);
+    }
+     
+    .CHL_star:before {
+        height: 0;
+        width: 0;
+        position: absolute;
+        display: block;
+        top: -11.25px;
+        left: -16.25px;
+        border-bottom: 20px solid #FFFFFF;
+        border-left: 7.5px solid transparent;
+        border-right: 7.5px solid transparent;
+        content: '';
+        -webkit-transform: rotate(-35deg);
+        -moz-transform: rotate(-35deg);
+        -ms-transform: rotate(-35deg);
+        -o-transform: rotate(-35deg);
+    }
+     
+    .CHL_star:after {
+        content: '';
+        width: 0;
+        height: 0;
+        position: absolute;
+        display: block;
+        top: 0.75px;
+        left: -26.25px;
+        color: #fc2e5a;
+        border-right: 25px solid transparent;
+        border-bottom: 17.5px solid #FFFFFF;
+        border-left: 25px solid transparent;
+        -webkit-transform: rotate(-70deg);
+        -moz-transform: rotate(-70deg);
+        -ms-transform: rotate(-70deg);
+        -o-transform: rotate(-70deg);
+    }
+    .CHL_star{
+        position: absolute;
+        top: 50px;
+        left: 32px;
+        }
